@@ -13,8 +13,7 @@
 .header__img {
   width: 100%;
 }
-.header 
-.more-inf {
+.header__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -64,7 +63,7 @@
 }
 /* Heading */
 .subtitle,
-.title {
+.section-add__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -90,11 +89,11 @@
 }
 
 /* New Task */
-.title {
+.section-add__title {
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+.new-task {
   width: 318px;
 }
 
@@ -137,7 +136,7 @@
 }
 
 /* Completed */
-#completed-tasks 
+.completed-tasks 
 .label {
   text-decoration: line-through;
   color: #888;
